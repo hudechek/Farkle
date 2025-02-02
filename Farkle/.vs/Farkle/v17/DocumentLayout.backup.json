@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jhude\\source\\repos\\Farkle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{87C25DE2-02DA-4921-B997-6390D51E9B60}|Farkle\\Farkle.vcxproj|C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\playerTurn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{87C25DE2-02DA-4921-B997-6390D51E9B60}|Farkle\\Farkle.vcxproj|solutionrelative:Farkle\\playerTurn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C25DE2-02DA-4921-B997-6390D51E9B60}|Farkle\\Farkle.vcxproj|C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\Farkle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{87C25DE2-02DA-4921-B997-6390D51E9B60}|Farkle\\Farkle.vcxproj|solutionrelative:Farkle\\Farkle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C25DE2-02DA-4921-B997-6390D51E9B60}|Farkle\\Farkle.vcxproj|C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\playerClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{87C25DE2-02DA-4921-B997-6390D51E9B60}|Farkle\\Farkle.vcxproj|solutionrelative:Farkle\\playerClass.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C25DE2-02DA-4921-B997-6390D51E9B60}|Farkle\\Farkle.vcxproj|C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\my_Functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{87C25DE2-02DA-4921-B997-6390D51E9B60}|Farkle\\Farkle.vcxproj|solutionrelative:Farkle\\my_Functions.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87C25DE2-02DA-4921-B997-6390D51E9B60}|Farkle\\Farkle.vcxproj|C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\diceRoller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{87C25DE2-02DA-4921-B997-6390D51E9B60}|Farkle\\Farkle.vcxproj|solutionrelative:Farkle\\diceRoller.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "my_Functions.h",
+              "DocumentMoniker": "C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\my_Functions.h",
+              "RelativeDocumentMoniker": "Farkle\\my_Functions.h",
+              "ToolTip": "C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\my_Functions.h",
+              "RelativeToolTip": "Farkle\\my_Functions.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-31T16:16:16.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "playerClass.h",
+              "DocumentMoniker": "C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\playerClass.h",
+              "RelativeDocumentMoniker": "Farkle\\playerClass.h",
+              "ToolTip": "C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\playerClass.h",
+              "RelativeToolTip": "Farkle\\playerClass.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-31T02:47:58.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "playerTurn.cpp",
+              "DocumentMoniker": "C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\playerTurn.cpp",
+              "RelativeDocumentMoniker": "Farkle\\playerTurn.cpp",
+              "ToolTip": "C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\playerTurn.cpp",
+              "RelativeToolTip": "Farkle\\playerTurn.cpp",
+              "ViewState": "AgIAABsAAAAAAAAAAAApwEYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-31T02:47:26.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "diceRoller.cpp",
+              "DocumentMoniker": "C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\diceRoller.cpp",
+              "RelativeDocumentMoniker": "Farkle\\diceRoller.cpp",
+              "ToolTip": "C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\diceRoller.cpp",
+              "RelativeToolTip": "Farkle\\diceRoller.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T03:20:27.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Farkle.cpp",
+              "DocumentMoniker": "C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\Farkle.cpp",
+              "RelativeDocumentMoniker": "Farkle\\Farkle.cpp",
+              "ToolTip": "C:\\Users\\jhude\\source\\repos\\Farkle\\Farkle\\Farkle.cpp",
+              "RelativeToolTip": "Farkle\\Farkle.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-30T03:03:04.756Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
