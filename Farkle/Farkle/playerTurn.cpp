@@ -4,29 +4,36 @@
 #include "my_Functions.h"
 #include <random>
 #include <vector>
+#include <algorithm>
+
 
 
 using namespace std;
 
+//data manipulation variables
 vector<int> playersDice;
-int value;
 vector<int> userInputs;
-
-int lastInputValue;
-
+vector<int> uniqueNumbers;
+int value;
+float lastInputValue;
 int numberOfDiceToAdd;
 int i = 0;
 string placementName[6] = { "first ","second ","third ","forth ","Fifth " };
 
+//stores first value of playerDice vector for case valuse of switch statement in function three of a kind
 int threeOfAKind;
 
+// score of kept dice 
 int score;
 
+//function to output and return of score for three of a kind's
 int threeOfAKindScore(int caseValue);
 
-void playerTurn() {
+//main function
+int main(int playerScore)
+{
 
-
+	// pushes rolled dice result to the back of players dice vector
 	for (int i = 0; i < 6; i++) {
 		playersDice.push_back(diceRoller());
 	}
@@ -34,6 +41,7 @@ void playerTurn() {
 	//sorts array from low to high
 	stable_sort(playersDice.begin(), playersDice.end());
 
+	//outputs dice on screen for player to see
 	for (int j = 0; j < playersDice.size(); j++) {
 		cout << j + 1 << ":" << "[ " << playersDice[j] << " ]" << endl;
 	}
@@ -54,51 +62,79 @@ void playerTurn() {
 			i++;
 		}
 
-		lastInputValue = userInputs.size();
-		lastInputValue = lastInputValue - 1;
+		//redundant sort but used incase of error
+		sort(userInputs.begin(), userInputs.end());
 
-
-		if (playersDice[userInputs[0]] == playersDice[userInputs[lastInputValue]] &&
-			playersDice[userInputs[1]] == playersDice[userInputs[lastInputValue]]) {
-
-			threeOfAKind = playersDice[userInputs[0]];
-
-			threeOfAKindScore(threeOfAKind);
-
-			cout << "you scored: " << score << " Points!";
+		for (int i = 0; i < userInputs.size(); i++) {
+			if (i == 0 || playersDice[userInputs[i]] != playersDice[userInputs[i-1]]) {
+				uniqueNumbers.push_back(playersDice[userInputs[i]]);
+			}
 		}
-		else {
-			cout << "rip you suck";
+
+		for (int i = 0; i < uniqueNumbers.size(); i++) {
+
+			int numberToEvaluate = uniqueNumbers[i];
+
+			int evaluatedNumberQuantity = count(playersDice.begin(), playersDice.end(), numberToEvaluate);
+
+			if (evaluatedNumberQuantity >= 3)
+			{
+				int overflowNumbers = evaluatedNumberQuantity - 3;
+
+				threeOfAKind = numberToEvaluate;
+
+				threeOfAKindScore(threeOfAKind);
+
+				if (overflowNumbers > 0) {
+					for (int i = 1; i < overflowNumbers; i++) {
+						if (uniqueNumbers[i] == 5) {
+							score += 50;
+						}
+						else if (uniqueNumbers[i] == 1) {
+							score += 100;
+						}
+					}
+				}
+			}
+			else if (uniqueNumbers[i] == 1 || uniqueNumbers[i] == 5)
+			{
+					if (playersDice[userInputs[i]] == 1) {
+						score += 100;
+					}
+					else if (playersDice[userInputs[i]] == 5) {
+						score += 50;
+					}
+			}
 		}
+
+		cout << "you scored: " << score << " Points!";
+		
+		
 	}
 
-
-	
-
-	
-
-
-
+	playerScore = score;
+	return playerScore;
 }
 
+//uses caseValue for determination of case to return
 int threeOfAKindScore(int caseValue) {
 
 	switch (caseValue)
 	{
 	case 1:
-		score = 1000;
+		score += 1000;
 		break;
 	case 2:
-		score = 200;
+		score += 200;
 		break;
 	case 3:
-		score = 300;
+		score += 300;
 		break;
 	case 4:
-		score = 400;
+		score += 400;
 		break;
 	case 5:
-		score = 500;
+		score += 500;
 		break;
 	case 6:
 		score = 600;

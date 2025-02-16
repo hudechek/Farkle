@@ -129,7 +129,6 @@
   <ItemGroup>
     <ClCompile Include="diceRoller.cpp" />
     <ClCompile Include="Farkle.cpp" />
-    <ClCompile Include="playerClass.cpp" />
     <ClCompile Include="playerTurn.cpp" />
   </ItemGroup>
   <ItemGroup>

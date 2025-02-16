@@ -1,4 +1,4 @@
 #pragma once
 
 int diceRoller();
-void playerTurn();
+int playerTurn(int playerScore);

@@ -1,1 +1,2 @@
 C:\Users\jhude\source\repos\Farkle\Farkle\x64\Debug\Farkle.exe
+C:\Users\jhude\Documents\Farkle\Farkle\Farkle\x64\Debug\Farkle.exe

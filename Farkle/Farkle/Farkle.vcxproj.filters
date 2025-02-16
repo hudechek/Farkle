@@ -24,9 +24,6 @@
     <ClCompile Include="playerTurn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="playerClass.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="my_Functions.h">
